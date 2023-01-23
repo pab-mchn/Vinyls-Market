@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Vinil Shop</title>
+  </head>
+  <body>
+    <!--navBar-->
+    <div class="nav-container">
+      <nav class="navbar">
+        <h1 class="navbar-logo">Vinils.</h1>
+        <h1 class="open-cart-button" id="open-cart-button">
+          🛒<span id="cart-items-counter" class="cart-items-counter"></span>
+        </h1>
+      </nav>
+    </div>
+
+    <!--banner-->
+    <div class="banner">
+      <div class="banner-container">
+        <h1>Vinyl Shop</h1>
+        <p>The best place to find your Vinyls</p>
+      </div>
+    </div>
+
+    <!--shop products content-->
+    <div id="product-card-container" class="product-card-container"></div>
+
+    <!--modal container-->
+    <div id="cart-modal-container" class="cart-modal-container"></div>
+
+    <!--footer-->
+    <footer>
+      <p>Find your vinilis with Us</p>
+    </footer>
+
+    <script src="./javascript/stock.js"></script>
+    <script src="./javascript/prodcuts.js"></script>
+    <script src="./javascript/cart.js"></script>
+  </body>
+</html>
